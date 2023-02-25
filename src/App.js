@@ -68,6 +68,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+      <h1>To-do List</h1>
         <header>
           <form id="to-do-form" onSubmit={this.addItem}>
             <input
